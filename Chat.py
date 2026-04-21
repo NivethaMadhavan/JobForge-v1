@@ -6,7 +6,7 @@ import pyttsx3
 import threading
 import time
 
-openai_api_key = ""
+openai_api_key = "API_KEY"
 client = OpenAI(api_key=openai_api_key)
 app = Flask(__name__)
 socketio = SocketIO(app)
